@@ -1,0 +1,16 @@
+<h1>Update Post</h1>
+<section>
+  <form action="POST" id="update-post-form">
+    <label for="title-text">Title</label>
+    <input type="text" name="title" id="title-text" value="{{post.title}}">
+    <label for="content-text">Content</label>
+    <textarea id="content-text" rows="10">{{post.content}}</textarea>
+    {{!-- <input type="text" name="content" id="content-text" value="{{post.content}}"> --}}
+    <section class="buttons">
+      <button type="submit" id="update-btn">Update Post</button>
+      <button type="button" id="delete-btn">Delete Post</button>
+    </section>
+  </form> 
+</section>
+
+<script src="/js/updatePost.js"></script>

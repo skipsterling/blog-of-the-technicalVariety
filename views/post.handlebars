@@ -1,0 +1,32 @@
+<article class="main-post card">
+  <section class="title-container">
+    <h2>{{post.title}}</h2>
+    <section class="usertime">
+      <p>{{post.user.username}}</p>
+      <p>{{format_date post.createdAt}}</p>
+    </section>
+  </section>
+  <section class="content-container">
+    <p>{{post.content}}</p>
+  </section>
+</article>
+
+<h3>Comments</h3>
+
+<section class="comments card">
+  {{#each post.comments}}
+  {{> comment-card}}
+  {{/each}}
+</section>
+
+
+<form action="POST" id="comment-form">
+  <input type="textArea" id="comment" placeholder="Did you enjoy my blog?" />
+  <button class="add-comment-btn" type="submit">Add Comment</button>
+</form>
+
+<div class="hidden" id="comment-error">
+  <p>Your comment is empty!</p>
+</div>
+
+<script src="/js/comment.js"></script>

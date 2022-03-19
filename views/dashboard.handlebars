@@ -1,0 +1,13 @@
+<h1>User Dashboard</h1>
+
+<section class="posts">
+  {{#each postList}}
+  {{> dashboard-post-card}}
+  {{/each}}
+</section>
+
+<section class="buttons">
+  <button onclick="getPostForm()">Add Post</button>
+</section>
+
+<script src="/js/post.js"></script>

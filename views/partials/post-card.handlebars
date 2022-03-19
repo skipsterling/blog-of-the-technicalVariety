@@ -1,0 +1,12 @@
+<article class="post card" onclick="gotoPost('{{id}}')">
+  <section class="title-container">
+    <h3>{{title}}</h3>
+    <div class="usertime">
+      <p>{{user.username}}</p>
+      <p>{{format_date createdAt}}</p>
+    </div>
+  </section>
+  <section class="content-container">
+    <p>{{substring content}}</p>
+  </section> 
+</article>
