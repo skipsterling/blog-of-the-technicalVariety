@@ -1,0 +1,40 @@
+#update-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  label {
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  button {
+    padding: 1rem 1rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  #update-btn {
+    color: skyblue;
+    background-color: white;
+  }
+  
+  
+  #delete-btn {
+    color: red;
+    background-color: white;
+  }
+  

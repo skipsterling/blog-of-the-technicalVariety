@@ -1,0 +1,23 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--post-title-bg);
+    padding: 0 1rem;
+  }
+  
+  .usertime {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .content-container {
+    padding: 0 1rem;
+  
+  }
+  

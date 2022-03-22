@@ -1,0 +1,72 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Ramaraja&family=Sora:wght@200;300&display=swap" rel="stylesheet">);
+
+:root {
+  --nav-text: white;
+}
+
+body {
+  padding: 0 5rem;
+  color: white;
+  background-color: tan;
+}
+
+main {
+  max-width: 75rem;
+  margin: auto;
+}
+
+/* Navbar */
+
+nav {
+  font-family: Ramaraja;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80rem;
+}
+
+nav ul {
+  font-family: 'News Cycle', sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  color: var(--nav-text);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-text);
+}
+
+#logo {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  color: white;
+  border-radius: .1rem;
+  overflow: hidden;
+  box-shadow: black 2px 2px 3px;
+}
+
+.usertime {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.usertime p {
+  font-weight: 500;
+}

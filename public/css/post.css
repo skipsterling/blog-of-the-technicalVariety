@@ -1,0 +1,37 @@
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--post-title-bg);
+    padding: 0 1rem;
+  }
+  
+  .content-container {
+    padding: 0 1rem;
+    white-space: pre-line;
+  }
+  
+  .comments {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment {
+    border-bottom: white (0, 0, 0, 0.15) solid .05rem;
+    padding: 0 1rem;
+  }
+  
+  .comment-content p {
+    margin-top: 0;
+  }
+  
+  #comment-form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10rem;
+  }
+  
+  #comment {
+    padding: .5rem;
+    flex-grow: 1;
+  }
