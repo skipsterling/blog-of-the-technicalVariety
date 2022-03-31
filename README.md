@@ -31,4 +31,9 @@ On the home page you will see you blog where yourselfand others can comment on t
 Once you have written a comment press add comment button and your comment will show up below the blog post along with a time date and username of who has commented. 
 Once you're finished doing all that you need to do, don't forget to log out. 
 <img src="img/ss9.png">
+
+## License 
+MIT
+
+## Questions
 If you have any questions regarding this application please don't hesitate to ask me <a href="https://github.com/skipsterling">My Github</a>
