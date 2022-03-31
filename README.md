@@ -1,7 +1,7 @@
 # blog-of-the-technicalVariety
 
 ## Description
-This application was created to provide people with a tool to create and manage a blog. Others can add their thoughts to the on the blog. Users are asked to log in and out to use this application and if they haven't already signed up they will need to do so. 
+This application was created to provide people with a tool to create and manage a blog. Others can add their thoughts to the on the blog. Users are asked to log in and out to use this application and if they haven't already signed up they will need to do so. Technologies used, handlebars.js, js, css, nodejs.
 
 ## Installation
 To install this project you will need to first clone the repository from github and then in the CLI you will need to run npm install so that all dependencies are installed. Next you will need to run the project on local host, the database can be created by using the mysql shell. Once this is done you will need to start the server by running npm start in the CLI. The working version of this application can be found by clicking on the following link. <a href="https://calm-castle-90070.herokuapp.com/login">my app</a>
