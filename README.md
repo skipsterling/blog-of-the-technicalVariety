@@ -37,3 +37,4 @@ MIT
 
 ## Questions
 If you have any questions regarding this application please don't hesitate to ask me <a href="https://github.com/skipsterling">My Github</a>
+or Via email tomsterlingjames@outlook.com.au
